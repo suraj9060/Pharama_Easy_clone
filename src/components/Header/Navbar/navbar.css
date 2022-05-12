@@ -1,0 +1,35 @@
+.nav{
+    background-color: #10847e;
+    height: 125px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+}
+
+.nav_left{
+    flex: 1;
+    
+}
+.nav_left img{
+    width: 120%;
+    margin: 20px;
+    
+}
+.nav_right{
+    flex: 8;
+    margin-left: 50px;
+    
+}
+.nav_right .nav_right_input input{
+    width: 60%;
+    height: 15px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+
+ 

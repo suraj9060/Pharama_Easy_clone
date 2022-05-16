@@ -1,5 +1,5 @@
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import './App.css';
 import axios from "axios"
 import Carousel from './components/Body/carousel/Carousel';
@@ -16,17 +16,23 @@ let api = "http://localhost:5000/products";
 function App() {
   const bannerImage = [BannerImg1 , BannerImg2 , BannerImg3 , BannerImg4 , BannerImg5]
   const [data, setData] = useState([])
+
+     useEffect(() => {
+       loadData();
+     }, []);
   
   const loadData = async () => {
     const response = await axios.get(api)
     console.log(response.data)
     setData(response.data)
+
+ 
   }
   return (
     <div className="App">
       <Navbar />
       <Carousel image={bannerImage} />
-      <Product data={ data}/>
+      <Product data={data} />
     </div>
   );
 }

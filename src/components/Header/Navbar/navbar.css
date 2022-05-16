@@ -31,5 +31,12 @@
     border: none;
 }
 
-
+.nav_right_category{
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+img{
+    width: 100%;
+}
  

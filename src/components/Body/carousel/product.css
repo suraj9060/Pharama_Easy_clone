@@ -1,0 +1,35 @@
+.Prod_container{
+    height: 300px;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    
+    
+}
+
+.Prod_container_box{
+    
+    height: 200px;
+}
+
+.prod_main_container{
+    display: flex;
+    align-items: center;
+
+}
+
+button{
+    color: white;
+    background-color: rgb(128, 223, 223);
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: 700;
+    
+}
+
+.Prod_container_box{
+    display: flex;
+    align-items: center;
+    
+}

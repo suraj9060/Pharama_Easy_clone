@@ -10,7 +10,7 @@ import BannerImg2 from "./BannerImage/BannerImg2.jpg";
 import BannerImg3 from "./BannerImage/Bannerimg3.jpg";
 import BannerImg4 from "./BannerImage/BannerImg4.jpg";
 import BannerImg5 from "./BannerImage/BannerImg5.jpg";
-let api = "http://localhost:5000/products";
+let api = "https://pharma-clone-backend.herokuapp.com/products";
 
 
 function App() {
